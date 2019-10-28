@@ -1,0 +1,30 @@
+package:
+  name: rec_to_binaries
+  version: 1.2.1
+
+build:
+  number: 3
+
+source:
+  path: ../rec_to_binaries
+
+requirements:
+  build:
+    - setuptools
+    - python
+
+
+  run:
+    - setuptools
+    - python
+    - matplotlib
+    - pandas
+    - numpy
+    - nb_conda
+    - pytest
+    - pytest-cov
+    - coveralls
+    - pip
+    
+about:
+  summary: This is a modified version of rec_to_binaries package avaliable at https://github.com/LorenFrankLab/rec_to_binaries
